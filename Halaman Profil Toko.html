@@ -1,29 +1,98 @@
 <html>
-<head><title>Profil Toko</title></head> 
+	<head><title>website.com</title>
+		<style> #nav {
+					color: white;
+					background-color: #330000;
+					font-size:larger;
+					height:60px;
+					}
+				.menu {
+					display:inline-block;
+					float:right;
+					text-align:left;
+				}
+				.menubar{
+					text-align:right;
+					float:left;
+					display:inline-block;
+				}
+				.title {
+					background:url("/C:/xampp/htdocs/website_etalase_toko/image/BackgroundTitle.jpg") repeat;
+					font-size:200px;
+					height:400px;
+					clear:both;
+					padding:0 30px;
+					text-align:center;
+				}
+				.searchbar {
+					color: white;
+					background-color:#330000;
+					width :100%;
+					padding:5px;}
+				p.brand {background-color:white;}
+				div {background-color:#ffd4aa;}
+				p.closebar {background-color:#d6d6d6; text-align: center;}
+		</style>
+	</head>
 	<body>
-		<div>Fashion Menu bar</div>
-		<div>
-			<table border="1" style="width:100%">
-				<tr>
-					<td><img src="/D:/kuliah/Semester 6/KPPL/website etalase toko/image/princesa.jpg" alt="princesa" style="width:200px;height:200px"></td>
-					<td>Profil toko</td>
-				</tr>
-				<tr> 
-					<td colspan="2">Socmed toko</td>
-				</tr>
-			</table>
-			<div>Deskripsi</div>
-			<div>Komentar dan testimoni toko</div>
-			<table border="1" style="width:100%">
-				<caption>Related Store</caption>
-				<tr>
-					<td><img src="/D:/kuliah/Semester 6/KPPL/website etalase toko/image/ayesha.jpg" alt="ayesha" style="width:200px;height:200px"></td>
-					<td><img src="/D:/kuliah/Semester 6/KPPL/website etalase toko/image/aldo.jpg" alt="aldo" style="width:200px;height:200px"></td>
-					<td><img src="/D:/kuliah/Semester 6/KPPL/website etalase toko/image/STROBERI.jpg" alt="stroberi" style="width:200px;height:200px"></td>
-					<td><img src="/D:/kuliah/Semester 6/KPPL/website etalase toko/image/Alexa Koi.jpg" alt="alexa koi" style="width:200px;height:200px"></td>
-				</tr>
-			</table>	
+		<div id="nav"><p class="menubar">FASHION</p>
+			<p class="menu">Home Stores AboutUs</p>
 		</div>
-		<div>close bar</div>
+		<div class="title">
+				Fashion Stores
+		</div>
+			<div class="searchbar">
+					<input type="text" name="search" value="search"/>
+					<input type="button" value="search"/>
+			</div>
+		<div> 
+			<table border="1" style="width:100%">
+				<tr style="height:50px"> <!-- ini Baris 1-->
+					<td rowspan="2" colspan="2">
+						<h2>Men Clothings</h2>
+						<img src="/C:/xampp/htdocs/website_etalase_toko/image/manclothing2.jpg" alt="manclothing" style="width:100%;height:450px"> 
+					</td>
+					<td > <h2>Women Clothings</h2>
+						<img src="//C:/xampp/htdocs/website_etalase_toko/image/womanclothing.jpg" alt="womanclothing" style="width:100%;height:250px">
+					</td>		
+				</tr> 
+				<tr>
+                   	<td>
+                   		<h2>Children Clothings</h2>
+						<img src="/C:/xampp/htdocs/website_etalase_toko/image/children.jpg" alt="children Clothing" style="width:100%;height:200px">
+                   	</td>
+                </tr> <!-- 3 gambar awal-->
+                <tr>
+					<td colspan="2">4</td>
+					<td rowspan="3"><h2>Accessories</h2>
+						<a href="Halaman etalase toko.php">
+						<img src="C:/xampp/htdocs/website_etalase_toko/image/accesories.jpg" alt="accesories" style="width:100%;height:250px">
+						</a></td>
+				</tr>
+				<tr>
+					<td><h2>Man Shoes</h2>
+						<img src="/C:/xampp/htdocs/website_etalase_toko/image/manshoes.png" alt="manshoes" style="width:100%;height:125px"></td>
+					<td><h2>Woman Shoes</h2>
+						<img src="/C:/xampp/htdocs/website_etalase_toko/image/woman shoes.jpg" alt="womanshoes" style="width:100%;height:125px"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><h2>Bags</h2>
+						<img src="/C:/xampp/htdocs/website_etalase_toko/image/bag.jpg" alt="bag" style="width:100%;height:150px"></td> 
+				</tr>
+
+			</table>
+			<!--
+			<div>  
+				<div></div>
+			</div>
+			<div> 
+				<div></div>
+				<div></div>
+			</div> -->
+		</div>
+		<div> <p class="Brand">
+			<img src="/C:/xampp/htdocs/website_etalase_toko/image/Fashion-Brands.jpg" alt="Brands" style="width:100%;height:200px">
+		</p></div>
+		<div><p class="closebar">copyright 2015 website.com</p></div>
 	</body>
 </html>
